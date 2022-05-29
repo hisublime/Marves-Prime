@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    font-weight: 500;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 828.5px;
+    height: auto;
+    padding: 0px 25px 25px 25px;
+    background: #ffffff;
+    border-radius: 25px;
+}
+
+.container {
+    position: relative;
+    width: 828.5px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 25px 25px 25px;
+    background: #ffffff;
+    border-radius: 25px;
+    border: 0.5px solid #c4c4c4;
+}
+
+.modal-content2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 828.5px;
+    height: auto;
+    padding: 0px 25px 25px 25px;
+    background: #ffffff;
+    border-radius: 25px;
+}
+
+.modal-content3 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 828.5px;
+    height: auto;
+    padding: 0px 25px 25px 25px;
+    background: #ffffff;
+    border-radius: 25px;
+}
+
+.modal-content4 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 828.5px;
+    height: auto;
+    padding: 0px 25px 10px 25px;
+    background: #ffffff;
+    border-radius: 25px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    font-family: "Poppins";
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.form-group {
+    position: relative;
+    height: 35.75px;
+    margin-bottom: 10px;
+}
+
+input[type="date" i],
+input[type="time" i],
+input[type="text" i] {
+    padding: 5px 5px;
+}
+
+textarea[type="textarea" i] {
+    padding: 5px 5px;
+}
+
+.control-label {
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.control-labeltgl1 {
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 10px;
+    margin-right: 31px;
+    color: #000000;
+}
+
+.control-labeltgl2 {
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 10px;
+    margin-right: 35px;
+    margin-left: 35px;
+    color: #000000;
+}
+
+.control-labeltgl3 {
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 10px;
+    margin-right: 55px;
+    color: #000000;
+}
+
+.control-labelk {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 10px;
+    margin-right: 14.2%;
+    color: #000000;
+}
+
+.control-labels {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 10px;
+    margin-right: 16%;
+    color: #000000;
+}
+
+.inputBox {
+    position: relative;
+    right: 5px;
+    width: 607.5px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 18px;
+    float: right;
+    border: 0.5px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    position: relative;
+    right: 5px;
+    width: 607.5px;
+    height: 90px;
+    font-size: 12px;
+    line-height: 18px;
+    float: right;
+    border: 0.5px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.inputBoxtgl {
+    position: relative;
+    width: 254px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 18px;
+    border: 0.5px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    margin-right: 3.7%;
+}
+
+.pp {
+    font-family: "Poppins";
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    margin-right: 3.7%;
+}
+
+.informasi {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+input[type="checkbox" i] {
+    position: relative;
+    top: 2px;
+    margin-right: 7px;
+}
+
+.row {
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.button {
+    margin-left: 340px;
+}
+
+.button button {
+    width: 193.3px;
+    height: 35.75px;
+    border-radius: 2.5px;
+    border: none;
+}
+
+.batal {
+    background: #c4c4c4;
+    margin-right: 40px;
+}
+
+.simpan {
+    background: #322881;
+    color: #ffffff;
+}
+
+.btn {
+    align-self: center;
+    margin: 0;
+    position: relative;
+    right: 237px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40px;
+    height: 20px;
+    background-color: grey;
+    transition: all 1s ease;
+    position: relative;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 3px solid black;
+}
+.box .ball {
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    transition: all 1s ease;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: none !important;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
+}
